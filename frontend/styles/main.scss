@@ -242,8 +242,8 @@ header{
     }
 
     .btn-need-help{
-        background-color: #F2F2F2;
-        color: #c3c3c3;
+        background-color: #acacac;
+        color: #ffffff;
 
         &:hover{
             background-color: #fafafa;
@@ -255,4 +255,26 @@ header{
 .section-footer{
     color: #071C4D;
 
+}
+
+.section-details-header{
+    min-height: 310px;
+    background: #E4E6EB;
+    margin-top: -70px;
+    
+}
+
+.section-details-content{
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+
+    .breadcrumb-item{
+        &.active{
+            font-weight: bold;
+            color: #071C4D;
+        }
+    }
 }

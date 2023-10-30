@@ -193,8 +193,8 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-testimonial-content .btn-need-help {
-  background-color: #F2F2F2;
-  color: #c3c3c3;
+  background-color: #acacac;
+  color: #ffffff;
 }
 .section-testimonial-content .btn-need-help:hover {
   background-color: #fafafa;
@@ -202,5 +202,21 @@ header .btn-get-started:hover {
 }
 
 .section-footer {
+  color: #071C4D;
+}
+
+.section-details-header {
+  min-height: 310px;
+  background: #E4E6EB;
+  margin-top: -70px;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
   color: #071C4D;
 }/*# sourceMappingURL=main.css.map */
